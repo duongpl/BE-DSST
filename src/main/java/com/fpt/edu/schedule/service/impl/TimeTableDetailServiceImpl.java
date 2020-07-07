@@ -245,6 +245,8 @@ public class TimeTableDetailServiceImpl implements TimeTableDetailService {
                 .sort(Comparator.comparing(TimetableEdit::getRoom).reversed());
         return timetableEdits;
     }
+    //1
+//swap giua 2 giang vien
 
     @Override
     public void swapTwoTimetableDetail(List<Integer> ids, String type) {

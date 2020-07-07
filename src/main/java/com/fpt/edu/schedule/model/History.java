@@ -10,6 +10,7 @@ import java.util.Date;
 
 @Getter
 @Setter
+@Entity
 @NoArgsConstructor
 
 public class History {
